@@ -1,5 +1,6 @@
 package concurrency.cooperation;
 
+import java.io.PipedWriter;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
@@ -37,7 +38,7 @@ class Car{
 
 class WaxOn implements Runnable{
     private Car car;
-
+    PipedWriter
     public WaxOn(Car car) {
         this.car = car;
     }
