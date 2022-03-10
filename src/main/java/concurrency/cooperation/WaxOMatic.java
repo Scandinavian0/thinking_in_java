@@ -38,7 +38,6 @@ class Car{
 
 class WaxOn implements Runnable{
     private Car car;
-    PipedWriter
     public WaxOn(Car car) {
         this.car = car;
     }
